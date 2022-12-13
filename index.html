@@ -474,7 +474,7 @@
             <form class="mailing-list">
 
             <div class="mailing-modal">
-            <label for="name">Ім'я</label>
+            <label for="name" class="mailing-text">Ім'я</label>
             <div class="icon-input">
             <input type="text" 
              name="name" 
@@ -488,7 +488,7 @@
 
                <div class="mailing-modal">
 
-               <label for="phone">Телефон</label>
+               <label for="phone" class="mailing-text">Телефон</label>
                <div class="icon-input">
                 <input type="tel" 
                 name="phone"   
@@ -501,7 +501,7 @@
 
                <div class="mailing-modal">
                              
-               <label for="email">Пошта</label>
+               <label for="email" class="mailing-text">Пошта</label>
                <div class="icon-input">
                 <input type="email"
                  name="email"
@@ -513,15 +513,14 @@
                </div>
             
             <div class="mailing-modal">
-            <label for="comment" >Коментар</label>
+            <label for="comment" class="mailing-text" >Коментар</label>
             <textarea name="comment" 
             class="mailing-comment"
             id="comment" 
             rows="10"
             placeholder="Введіть текст"></textarea>
             </div>
-
-            <div class="mailing-modal">
+            
             <input type="checkbox"
              class="checkbox-policy visually-hidden" 
             name="policy" id="policy">
@@ -533,8 +532,7 @@
                </span> Погоджуюся з розсилкою та приймаю <a href="/http:" target="_blank" class="mailing-agreement">Умови договору</a>
                </label>
              <button type="submit" class="primary-button">Відправити</button>
-            </div>
-             
+                        
             
            
             </form>       
